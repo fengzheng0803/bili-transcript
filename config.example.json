@@ -1,0 +1,24 @@
+{
+  "bilibili": {
+    "cookie": ""
+  },
+  "dep_dir": "~/bilibili-dep",
+  "asr": {
+    "default": "cloud",
+    "cloud": {
+      "base_url": "https://api.siliconflow.cn/v1",
+      "api_key": "",
+      "model": "FunAudioLLM/SenseVoiceSmall"
+    },
+    "local": {
+      "model_size": "medium",
+      "device": "cpu",
+      "compute_type": "int8"
+    }
+  },
+  "llm": {
+    "base_url": "https://api.deepseek.com",
+    "api_key": "",
+    "model": "deepseek-chat"
+  }
+}
